@@ -2,12 +2,26 @@
 <html>
 <head>
   <title>Weather</title>
+  <link rel="stylesheet" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="link.css">
 </head>
 <body>
-  <h1>Weather</h1>
-  <h2>Just the Weather</h2>
+  <div class="jumbotron">
+    <h1>Weather</h1>
+    <h2>Just the Weather</h2>
+  </div>
+  <div class="container">
+    <label>What is your zip code?</label>
+    <input type="text" id="textField"  placeholder="zip code">
+    <button id="submitZip">Submit</button>
+    <div class="weatherContainer row">
+      <!-- <section class="weatherContainer-wrapper col s9">
+        <button id="auth-btn" type="button">Sign in with Google</button>
+      </section> -->
+    </div>
+  </div>
 
+  <script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="dist/app.js"></script>
 </body>
 </html>
