@@ -1,0 +1,1 @@
+this app utilizes an API to give the user the weather. 
